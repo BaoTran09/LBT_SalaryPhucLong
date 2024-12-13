@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A12F800-848C-4FF5-A6CD-D26061A6F343}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>G221LBTSalaryPL</RootNamespace>
+    <AssemblyName>G221LBTSalaryPL</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fr02QLDMNSPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr02QLDMNSPL.Designer.cs">
+      <DependentUpon>Fr02QLDMNSPL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr03XLRBTVNSPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr03XLRBTVNSPL.Designer.cs">
+      <DependentUpon>Fr03XLRBTVNSPL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr1Main21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr1Main21.Designer.cs">
+      <DependentUpon>Fr1Main21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSalaPLDMCV1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G221LBTSalaPLDMCV1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSalarysPLDMTD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G221LBTSalarysPLDMTD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSalasDMNSPL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G221LBTSalasDMNSPL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSalasPLBCC.cs">
+      <DependentUpon>G221LBTSalasPLBCC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSalasPLBCC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G221LBTSalasPLBCC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSalasPLBL.cs">
+      <DependentUpon>G221LBTSalasPLBL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSalasPLBL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G221LBTSalasPLBL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSalasPLDMCV.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G221LBTSalasPLDMCV.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSalasryPLBL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G221LBTSalasryPLBL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSaPLsDMDV.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G221LBTSaPLsDMDV.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSasaryPLBCC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G221LBTSasaryPLBCC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSasPLBCC.cs">
+      <DependentUpon>G221LBTSasPLBCC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSasPLBCC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G221LBTSasPLBCC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSasPLBL.cs">
+      <DependentUpon>G221LBTSasPLBL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G221LBTSasPLBL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G221LBTSasPLBL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Fr02QLDMNSPL.resx">
+      <DependentUpon>Fr02QLDMNSPL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr03XLRBTVNSPL.resx">
+      <DependentUpon>Fr03XLRBTVNSPL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr1Main21.resx">
+      <DependentUpon>Fr1Main21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="G221LBTSalaPLDMCV1.xsc">
+      <DependentUpon>G221LBTSalaPLDMCV1.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalaPLDMCV1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G221LBTSalaPLDMCV1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G221LBTSalaPLDMCV1.xss">
+      <DependentUpon>G221LBTSalaPLDMCV1.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalarysPLDMTD.xsc">
+      <DependentUpon>G221LBTSalarysPLDMTD.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalarysPLDMTD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G221LBTSalarysPLDMTD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G221LBTSalarysPLDMTD.xss">
+      <DependentUpon>G221LBTSalarysPLDMTD.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalasDMNSPL.xsc">
+      <DependentUpon>G221LBTSalasDMNSPL.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalasDMNSPL.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G221LBTSalasDMNSPL.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G221LBTSalasDMNSPL.xss">
+      <DependentUpon>G221LBTSalasDMNSPL.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalasPLBCC.xsc">
+      <DependentUpon>G221LBTSalasPLBCC.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalasPLBCC.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G221LBTSalasPLBCC.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G221LBTSalasPLBCC.xss">
+      <DependentUpon>G221LBTSalasPLBCC.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalasPLBL.xsc">
+      <DependentUpon>G221LBTSalasPLBL.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalasPLBL.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G221LBTSalasPLBL.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G221LBTSalasPLBL.xss">
+      <DependentUpon>G221LBTSalasPLBL.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalasPLDMCV.xsc">
+      <DependentUpon>G221LBTSalasPLDMCV.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalasPLDMCV.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G221LBTSalasPLDMCV.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G221LBTSalasPLDMCV.xss">
+      <DependentUpon>G221LBTSalasPLDMCV.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalasryPLBL.xsc">
+      <DependentUpon>G221LBTSalasryPLBL.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSalasryPLBL.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G221LBTSalasryPLBL.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G221LBTSalasryPLBL.xss">
+      <DependentUpon>G221LBTSalasryPLBL.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSaPLsDMDV.xsc">
+      <DependentUpon>G221LBTSaPLsDMDV.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSaPLsDMDV.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G221LBTSaPLsDMDV.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G221LBTSaPLsDMDV.xss">
+      <DependentUpon>G221LBTSaPLsDMDV.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSasaryPLBCC.xsc">
+      <DependentUpon>G221LBTSasaryPLBCC.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSasaryPLBCC.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G221LBTSasaryPLBCC.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G221LBTSasaryPLBCC.xss">
+      <DependentUpon>G221LBTSasaryPLBCC.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSasPLBCC.xsc">
+      <DependentUpon>G221LBTSasPLBCC.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSasPLBCC.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G221LBTSasPLBCC.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G221LBTSasPLBCC.xss">
+      <DependentUpon>G221LBTSasPLBCC.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSasPLBL.xsc">
+      <DependentUpon>G221LBTSasPLBL.xsd</DependentUpon>
+    </None>
+    <None Include="G221LBTSasPLBL.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G221LBTSasPLBL.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G221LBTSasPLBL.xss">
+      <DependentUpon>G221LBTSasPLBL.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-sebastian-arie-voortman-189349.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoNEW-05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Media\ImageChoose.png" />
+    <Content Include="Media\th%281%29.jpg" />
+    <Content Include="Media\th%282%29.jpg" />
+    <Content Include="Media\th.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
